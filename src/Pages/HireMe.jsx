@@ -12,7 +12,7 @@ const HireMe = () => {
   };
 
   return (
-    <section className="w-full bg-gray-50 py-16 px-6 lg:px-20 pt-[100px] lg:pt-[120px]">
+    <section className="w-full bg-gray-50 py-16 px-6 lg:px-20 pt-[100px] lg:pt-[120px] mt-20">
       <div className="max-w-6xl mx-auto text-center" ref={ref}>
         <motion.h2
           initial="hidden"

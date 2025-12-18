@@ -77,7 +77,7 @@ const WorkExperienceCard = ({ job }) => {
 
 const WorkExperience = () => {
   return (
-    <section className="w-full bg-gray-50 py-16 px-6 lg:px-20 pt-[100px] lg:pt-[120px]">
+    <section className="w-full bg-gray-50 py-16 px-6 lg:px-20 pt-[100px] lg:pt-[120px] mt-20">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl lg:text-5xl font-bold text-gray-900 mb-12 text-center">
           Work Experience
