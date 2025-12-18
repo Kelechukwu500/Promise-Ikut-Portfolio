@@ -3,7 +3,7 @@ import { FaBars } from "react-icons/fa";
 import { useState } from "react";
 import Fuse from "fuse.js";
 import { FaHome } from "react-icons/fa";
-import Logo from "../assets/logo.jpg";
+import Logo from "../assets/Logo.jpg";
 
 const Navbar = () => {
   const [query, setQuery] = useState("");
