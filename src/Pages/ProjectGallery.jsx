@@ -129,36 +129,32 @@ const ProjectGallery = () => {
   const navigate = useNavigate();
 
   return (
-    <section className="bg-gray-100 py-12 mt-18">
+    <section className="w-full bg-gray-100 py-16 px-6 lg:px-20 pt-[100px] lg:pt-[120px]">
       <div className="max-w-screen-xl mx-auto px-4">
         <h2 className="text-3xl font-bold text-center text-blue-800 mb-8">
           Project Gallery
         </h2>
 
-       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-  {projects.map((project) => (
-    <div
-      key={project.id}
-      className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300"
-    >
-      <img
-        src={project.image}
-        alt={project.title}
-        className="w-full h-48 object-cover"
-      />
-      <div className="p-4">
-        <h3 className="text-lg font-semibold text-blue-600 mb-2">
-          {project.title}
-        </h3>
-        <p className="text-black text-sm">
-          {project.description}
-        </p>
-      </div>
-    </div>
-  ))}
-</div>
-
-         
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          {projects.map((project) => (
+            <div
+              key={project.id}
+              className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300"
+            >
+              <img
+                src={project.image}
+                alt={project.title}
+                className="w-full h-48 object-cover"
+              />
+              <div className="p-4">
+                <h3 className="text-lg font-semibold text-blue-600 mb-2">
+                  {project.title}
+                </h3>
+                <p className="text-black text-sm">{project.description}</p>
+              </div>
+            </div>
+          ))}
+        </div>
 
         <div className="mt-10 text-center">
           <button

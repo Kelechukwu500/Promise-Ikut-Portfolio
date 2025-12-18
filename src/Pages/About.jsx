@@ -11,7 +11,7 @@ const About = () => {
   };
 
   return (
-    <section className="w-full bg-gray-50 py-16 px-6 lg:px-20 mt-12">
+    <section className="w-full bg-gray-50 py-16 px-6 lg:px-20 pt-[100px] lg:pt-[120px]">
       <div className="max-w-6xl mx-auto">
         {/* Section Heading */}
         <motion.h2
