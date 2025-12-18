@@ -65,10 +65,17 @@ const links = [
 
   return (
     <nav className="w-screen border-gray-200 bg-gray-200 z-50 fixed top-0 left-0">
-      <div className="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto py-2 md:py-3"> 
-
+      <div className="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto py-2 md:py-3">
         {/* Navbar Logo Section */}
-        
+        <div className=" text-lg flex items-center px-4 py-2 ">
+          <div className="w-32 h-15">
+            <img
+              src={Logo} // Replace with your logo path
+              alt="Logo"
+              className="w-full h-full object-contain"
+            />
+          </div>
+        </div>
 
         {/* Center Search Bar */}
         <a href="#" className="text-xl font-bold text-gray-700">
