@@ -129,7 +129,7 @@ const ProjectGallery = () => {
   const navigate = useNavigate();
 
   return (
-    <section className="w-full bg-gray-100 py-16 px-6 lg:px-20 pt-[100px] lg:pt-[120px] mt-20">
+    <section className="w-full bg-gray-50 py-16 px-6 lg:px-20 pt-28 sm:pt-32 lg:pt-36">
       <div className="max-w-screen-xl mx-auto px-4">
         <h2 className="text-3xl font-bold text-center text-blue-800 mb-8">
           Project Gallery
