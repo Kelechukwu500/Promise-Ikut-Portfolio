@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import image from "../assets/promise.jpg"; // Imported image
+import image from "../assets/Promise.jpg"; // Imported image
 import { Link } from "react-router-dom";
 
 const Hero = () => {
